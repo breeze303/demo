@@ -1,13 +1,26 @@
-domain:ai.google.dev
-domain:alkalimakersuite-pa.clients6.google.com
-domain:makersuite.google.com
-domain-suffix:bard.google.com
-domain-suffix:deepmind.com
-domain-suffix:deepmind.google
-domain-suffix:gemini.google.com
-domain-suffix:generativeai.google
-domain-suffix:proactivebackend-pa.googleapis.com
-domain-suffix:apis.google.com
-domain-keyword:colab
-domain-keyword:developerprofiles
-domain-keyword:generativelanguage
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "ai.google.dev",
+        "alkalimakersuite-pa.clients6.google.com",
+        "makersuite.google.com"
+      ],
+      "domain_suffix": [
+        "bard.google.com",
+        "deepmind.com",
+        "deepmind.google",
+        "gemini.google.com",
+        "generativeai.google",
+        "proactivebackend-pa.googleapis.com",
+        "apis.google.com"
+      ],
+      "domain_keyword": [
+        "colab",
+        "developerprofiles",
+        "generativelanguage"
+      ]
+    }
+  ]
+}
